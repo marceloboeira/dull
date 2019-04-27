@@ -2,6 +2,9 @@
 > a dummy multi-thread HTTP server
 > Chapter 20 of "The Rust Book".
 
+More info:
+  * 🔩 [marceloboeira](https://github.com/marceloboeira)/[grab](https://github.com/marceloboeira/trpl) - The Rust Programming Language Annotations.
+
 ## Performance
 
 ### Single threaded
