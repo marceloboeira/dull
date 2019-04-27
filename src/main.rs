@@ -7,7 +7,7 @@ use dull::ThreadPool;
 
 fn main() {
     let listener = TcpListener::bind("127.0.0.1:7878").unwrap();
-    let pool = ThreadPool::new(50);
+    let pool = ThreadPool::new(10);
 
     for stream in listener.incoming() {
         let stream = stream.unwrap();
